@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1141429896527502}
+  m_IsPrefabAsset: 1
+--- !u!1 &1141429896527502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4988873041590160}
+  - component: {fileID: 114581766032714462}
+  - component: {fileID: 114918372055944158}
+  - component: {fileID: 114228149522708634}
+  - component: {fileID: 114735259506583996}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: GameMaster
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4988873041590160
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141429896527502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114228149522708634
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141429896527502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24fcf5ad4c893bd48b4385ea31b837ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: ae512c4b1064a2045bc960665e061091, type: 2}
+  sound:
+  - audioMixerGroup: {fileID: 243290711840578132, guid: ae512c4b1064a2045bc960665e061091,
+      type: 2}
+    clipName: ThemeSong
+    clip: {fileID: 8300000, guid: a247dceb75c1d5a4d9f968044b486933, type: 3}
+    volume: 0.72
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+  - audioMixerGroup: {fileID: 243691887118470800, guid: ae512c4b1064a2045bc960665e061091,
+      type: 2}
+    clipName: SwitchSound
+    clip: {fileID: 8300000, guid: a6b5b24e56880074e936e1be4acf958f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+  - audioMixerGroup: {fileID: 243691887118470800, guid: ae512c4b1064a2045bc960665e061091,
+      type: 2}
+    clipName: ShootSound
+    clip: {fileID: 8300000, guid: e7e8241ed3b4b93458d40a096aef6ef5, type: 3}
+    volume: 0.205
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+  - audioMixerGroup: {fileID: 243691887118470800, guid: ae512c4b1064a2045bc960665e061091,
+      type: 2}
+    clipName: TurretSound
+    clip: {fileID: 8300000, guid: 17d9d3b850f4fc64cbee30ca3df58491, type: 3}
+    volume: 0.34
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+  - audioMixerGroup: {fileID: 243691887118470800, guid: ae512c4b1064a2045bc960665e061091,
+      type: 2}
+    clipName: CrabDeath
+    clip: {fileID: 8300000, guid: fa922a9e52048e0459b83ba3eb3abbb3, type: 3}
+    volume: 0.66
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+  - audioMixerGroup: {fileID: 243691887118470800, guid: ae512c4b1064a2045bc960665e061091,
+      type: 2}
+    clipName: PlayerDeath
+    clip: {fileID: 8300000, guid: 3a817f2d382652046b07fa27073647b6, type: 3}
+    volume: 0.465
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+  - audioMixerGroup: {fileID: 243691887118470800, guid: ae512c4b1064a2045bc960665e061091,
+      type: 2}
+    clipName: CrabAttack
+    clip: {fileID: 8300000, guid: c494ec84924ccdb4aa3b75316dc3b4d0, type: 3}
+    volume: 0.465
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+  - audioMixerGroup: {fileID: 243691887118470800, guid: ae512c4b1064a2045bc960665e061091,
+      type: 2}
+    clipName: TurretDeath
+    clip: {fileID: 8300000, guid: 0df06fdf528a62249beaaee865cad79c, type: 3}
+    volume: 0.89
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+  - audioMixerGroup: {fileID: 243691887118470800, guid: ae512c4b1064a2045bc960665e061091,
+      type: 2}
+    clipName: MenuSong
+    clip: {fileID: 8300000, guid: c6eebeaeb628e264faa919aa7214cdc6, type: 3}
+    volume: 0.768
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+--- !u!114 &114581766032714462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141429896527502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6f1ba1ecfc0584897cd6fc391381d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgrounds:
+  - {fileID: 0}
+  - {fileID: 0}
+  smoothing: 3
+--- !u!114 &114735259506583996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141429896527502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13acf3a57c33954fa5a7b7f25eccd0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseWindow: {fileID: 0}
+  OptionsWindow: {fileID: 0}
+  MenuUI: {fileID: 0}
+  DeathUI: {fileID: 0}
+  currentLevel: 2
+  isPaused: 0
+--- !u!114 &114918372055944158
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141429896527502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4927df2363179d14b9e3d50ccd6ad292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  switches:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  exitDoor: {fileID: 0}
+  switchCount: {fileID: 0}

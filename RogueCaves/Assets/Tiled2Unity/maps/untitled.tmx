@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="2018.08.22" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+ <tileset firstgid="1" name="tilesets" tilewidth="16" tileheight="16" tilecount="288" columns="24">
+  <image source="Warped Caves/Artwork/Environment/tilesets.png" width="384" height="192"/>
+ </tileset>
+ <tileset firstgid="289" source="gate-01.tsx"/>
+ <tileset firstgid="298" source="walls-tileset.tsx"/>
+ <tileset firstgid="378" source="Tiles/stalactite.tsx"/>
+ <tileset firstgid="384" source="Tiles/stone.tsx"/>
+ <tileset firstgid="390" source="Tiles/stone-head.tsx"/>
+ <tileset firstgid="399" source="Tiles/plant-big.tsx"/>
+ <tileset firstgid="405" source="Tiles/plant-small.tsx"/>
+ <tileset firstgid="407" source="collision.tsx"/>
+ <tileset firstgid="431" name="tileset-sliced" tilewidth="16" tileheight="16" tilecount="288" columns="24">
+  <image source="Warped Caves/Artwork/Environment/tileset-sliced.png" width="384" height="192"/>
+  <tile id="26">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="27">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="28">
+   <objectgroup draworder="index">
+    <object id="2" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="29">
+   <objectgroup draworder="index">
+    <object id="3" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="30">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="171">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="172">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="174">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="176">
+   <objectgroup draworder="index">
+    <object id="2" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="178">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="179">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="181">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="182">
+   <objectgroup draworder="index">
+    <object id="3" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="183">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="184">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="205">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="208">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="219">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="16">
+     <polyline points="0,0 16,-16 16,0 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="221">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="16">
+     <polygon points="0,0 0,-16 16,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="223">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="16">
+     <polygon points="0,0 -0.0909091,-5 15.9091,-13.1818 15.9091,0.0909091"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="224">
+   <objectgroup draworder="index">
+    <object id="1" x="0.181818" y="0.272727" width="15.9091" height="15.8182"/>
+   </objectgroup>
+  </tile>
+  <tile id="226">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="15.9091" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="227">
+   <objectgroup draworder="index">
+    <object id="2" x="0" y="16">
+     <polygon points="0,0 -0.0909091,-12.0909 9.27273,-11.5455 15.8182,-4.90909 16,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="229">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="232">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="243">
+   <objectgroup draworder="index">
+    <object id="4" x="0.181818" y="0.272727" width="15.7273" height="15.7273"/>
+   </objectgroup>
+  </tile>
+  <tile id="245">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="247">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="248">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="250">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="251">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="253">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="254">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="255">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="256">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer id="8" name="BackgroundTiles" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1yEOgDAQRcHCQTEVYOAInL2LpghISKGZSb5f88SmBAAAAAAAAAAAAP2ZhtYXwHfpg7/Yx/PedvSRNQJV+oBr+oC6ObpYYmts0widevKrtPh1AO4ouBMKtg==
+  </data>
+ </layer>
+ <layer id="5" name="Tile Layer 1" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztmkuLHFUUx08VCPkG7oWI5FM0ulI0QSaSZETtGE3iQlFRsoghrmcxcTozieKrM4sRxoljUONj1QzREEIehixcSYeJgn4AiUTU/+nq41xvnfuoR9svD/y5Xd3Vt6pund8959wqorxdg673W1PXLX0N3VD+77InoD+IOnchrb/7iZr297L9O/5zB9pT4HhiMwnR7iR/Pab24ffZpETnA7S1lOgs9Am0Dh1KqXMQeh56DuJ9tHH0adjm861xMfMafO33Jfq+DR/fhExOwAXtoDyH5ufHoS5lPlHGQoyMGhtsF8DEt9B30EVoF5jYCT0GPWrwIeNk82Rvj4KFfGocLJaPXyoc4yx8fS3PyT/xY4OowfHiFtSFXqhwLDGNkVGMG0VMxmshpbbNk709CjYNfIjg3+1FqMwxluDz+G+H4wnHBuaE+ZA8ahV8dCvEC5fZjAgbh9C+VJGT96EPoHeh94z2DLTs+d/D8N1H0nyLGEGIFbQzix25baKte9JKy92HQdoJjOdbydb1sGk+NW45ViwfiAHtpZJ8mMax4XafD4krLfBRtV/NnsL9errPxwGDjQb0YkVGvoDOQ59Bnxst12nfKPsfgM+gjqD90LNKy7+h1qCDWe3R2/6SMvH2sTS7Ds6dPh2R+GDaAsaylWxdD9uk8qExwvXHjzUel/mQuFJjtzmbMeIHWGk3rJyrLCNXoKuk12naOsZR+MwbqX/dICTun1k5bPDxMmLJXqgx4Jhi14qutRXNf6aBD64/fqvxuNvBR43deW3GUatXqUeWsvjXtMeKx+lXZf+T8OnF1L2mE+JCdBx9vDnA+HEJ43EZumKNi8vHbWa036eBjwTjtVlDfjUs0+r1KrU64l5zTeGDxylV+v24v8bk831tLc/+bjmlztsDzq9uJvm5K8b3Xfn5pNXn2jVyXt0a0jnWZczIqYQ6daxjufIrV/1xL/Kfv5DfucbXx4apOfDxIPh4KKLGL2vMhxyDlPMN+b4v95pUPjivXoVe/w/zokHYUlJPvfMT9DOVrz9cviR+o/kgaxv4mEU/T0bU+JeUPCnW5Bg+lrV6JKY2mUQ+OK/egF4bcz7qMlm/KlN/xNQgrpgSii+i5bTYPBDK9Vzn7PMZFx/mPDDqFoqPZl49CzZenQI+LkbsUzS/Qv7TxBzfDPGh+Zj2/QpYmwcDLWgBOtZfAxbNOfgw6295ZlG2ZvDx4eprkuKHfd/3gY1XhsTHaehDyhYIzgzjBBRz5VeaoUZo7rf4aCT/Vkz8YC44Ntxj1RfCyQloPhA7pP6WZxb/8+G2WD7KvH8VMtdaomld6Ba0Ttmzsq8oY3WTes8Zc8+vTY6KmNnPIvXWb3vbpgmXZv9afuUy+G7zozQ8v7j8SfhwxQaX2fW78HES476Y+Jmsiw9t33EwX34Ze9+r2A/KWiJblzIu7lDvfd7c/btLvfdUcs+vbY5CJscx+1mj3vsCve3zVn+rxrY2TomHdczrzZUIPni/ut49nPPU72I+/47hw7f/pPKh1R+m8VqvzLky39pzuat9x+hH+JD3mbrk50Kr/Xy1Ids5TPfPoNUUexzf3Gm29vPtslbHu4dzWS4WFRtC9z+WD217UvkwP3P8MOfYVWNb5lt7Lne154zjCx+yHmT7q2ucfbFO8+sjDpHVj9ZHaIzMdtDPt2NtXmHDFxtCtU8dfExi/eHSBunXHRL/V54R8PqJ8OFaD4qZh2Jyghg+Qv2Gxo3b08pzOtc7uyGL7cdumY0V5dlFET5ix8B3v6aND82PinBhxiLOpRb6fEh+pq0HxcxD2jkNi491Jc93vbMbsth+7FbY8M3psXzY+z6QUHs7dJ/yLkAsf6POh8/PYvy7qriW4VyKa2xeP5H87M/AORQ57zJ8xPRjjmHIB6rMJ8NQUZ8O+UPoWKNmfwP51lj7
+  </data>
+ </layer>
+ <layer id="6" name="Tile Layer 2" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztm0FrE0EYhmcXBK+K0KO2prHinxBLDkqtiIJSEVZtWrx5bpJWq15ErI1NpdjDIqIYk5Zaf0AQWxHxov4Dxf8gKvWd7IzZrJPt7mZnM0nmhZdNtpuZWfo92e+bmRDSP7phkpro/CWcn2jxt04obxBSgHeMxjnvGE+ZxLoKh22btrnHjGOUwXUQ/R2Cswn32wsadr1OwWnmYxL6utiCgVGcP6EQH7OI4Tl4wBVP3jGeBBtXPHy4eZrB6xx7z9kaMpvbTFoFzYfSOo4YWTbU4SCKFhDzDw0xH61iXxX+9fNDfZVa8DFtiM7KV8YnZhDTNLabtIhxFo3o+VWcAqN0HPV74GM9A78Hi9vwlodJ/fxQX48JsdZJI65W4CW4xN6X2uDE23YQXfaJGeRENDdqUpbl8aLnB5cfc3EIDFjTTv8EjNbvgY8V58k6uFiDq3DFxUhJ89E1OsuOG3AFrrL3yx16jsSln4YTr79x/CPpXsbBxlSHn11acnWdNBjhUm0eK4r2gY398AFnzsiS0cdptJvVfPS8KCPuel1WHQvmbLRrx92uSLgHC5xb8xJzmTG0P6n56AvRev285JwK8WqPSuRjESwUGQ/g0AKPFnIsO+Nw+V+NH1QZs1GD8+MDeMHUtXY/6Rz4mIiBkSj1uZ++YExfd/Fnwbg3ELuvWfyKavzddI1xQOsYXoPzYysuMFY7XC9a/aYBfF/vKBgnYeeNcrg+H+Izhw1igVX7qKFzLq3e1yOwsRSCjxGwMQwPKfjdoBVMN5GH3ILnBfnIB5z7CH9SYG63griswmvOOkJH9Mp0xhFUmo/u123E/h34rgQG3Ln3j4htvERuhjrbfoe43IK3nXVo8swktafw3phZ4WuIvH4fZ2vfUepvzUfvqAx/g7/7XFMM0R7NvdOoydvNvctgoyiY47oPNu5JmHPm6/a8fp9ia9/P4RchWdR8dKfSgrmkt/AvUl83t1eI+P9ZDtHHILhIwUf6uDbVfHSnRHxwbYKNJwI+VvGZNyHmaBETFmLDGvHhI8n1wVaSuSdL85Gs5gxSm41hH3qK1HMf4mfv70zAjLUZMx/e9cEge3bp3ld63ZhZ38/xrz7wXucndz9++yDbleYjOV0gpFYAG/kY+FDl+eFVkD27dO8rvW6S7dfl9YH3uqj9xCnNR7LKgY0ZyXyAAXtVwIeM54efwtbCKu4RR+1lowazB3uQj783fe0B
+  </data>
+ </layer>
+ <layer id="7" name="Collison" width="200" height="20" opacity="0">
+  <data encoding="base64" compression="zlib">
+   eJzt2UEKgCAURVHb/wLaboMmCT4SSrQ4B5w6+lcFSwEAAOCL9q29gHYL+oCTPiDTB2T6gEwfkOkDMn1Apg9mS39wK/zF6YNZehq4a+ftPXr21QcjjbgbVr6D+Ien52zPTJpXqBu4NqENqHvw1oGaHljRAaVPQLk=
+  </data>
+ </layer>
+</map>
