@@ -2625,6 +2625,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114228149522708634, guid: a47b26520fdeece4f88782d4bd448700,
+        type: 3}
+      propertyPath: sound.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: fb531a74b9a58b04b885e32e53254335, type: 3}
     - target: {fileID: 114581766032714462, guid: a47b26520fdeece4f88782d4bd448700,
         type: 3}
       propertyPath: backgrounds.Array.data[0]
@@ -2675,11 +2680,6 @@ PrefabInstance:
       propertyPath: switches.Array.data[4]
       value: 
       objectReference: {fileID: 1987553793}
-    - target: {fileID: 114228149522708634, guid: a47b26520fdeece4f88782d4bd448700,
-        type: 3}
-      propertyPath: sound.Array.data[0].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: fb531a74b9a58b04b885e32e53254335, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a47b26520fdeece4f88782d4bd448700, type: 3}
 --- !u!1 &326873919
@@ -18395,8 +18395,8 @@ MonoBehaviour:
   smoothTimeX: 0.7
   player: {fileID: 860586506}
   bounds: 1
-  minCameraPos: {x: -3.77, y: -0.94, z: -25.72}
-  maxCameraPos: {x: 101.62, y: -0.94, z: -25.72}
+  minCameraPos: {x: -4.79, y: -0.94, z: -25.72}
+  maxCameraPos: {x: 102.64, y: -0.94, z: -25.72}
 --- !u!81 &2040980838
 AudioListener:
   m_ObjectHideFlags: 0
@@ -18463,7 +18463,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040980836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.77, y: -0.94, z: -10}
+  m_LocalPosition: {x: -4.79, y: -0.95, z: -10}
   m_LocalScale: {x: 1, y: 0.63000005, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
