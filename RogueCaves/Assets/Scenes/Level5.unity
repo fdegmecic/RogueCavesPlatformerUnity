@@ -7873,6 +7873,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 114965654265133082, guid: 1aac5a3ee8e9c694a800c589fcb24156,
+        type: 3}
+      propertyPath: DeathUI
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4114511496948948, guid: 1aac5a3ee8e9c694a800c589fcb24156, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.06
@@ -7904,11 +7909,6 @@ PrefabInstance:
     - target: {fileID: 4114511496948948, guid: 1aac5a3ee8e9c694a800c589fcb24156, type: 3}
       propertyPath: m_RootOrder
       value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 114965654265133082, guid: 1aac5a3ee8e9c694a800c589fcb24156,
-        type: 3}
-      propertyPath: DeathUI
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1090008182050232, guid: 1aac5a3ee8e9c694a800c589fcb24156, type: 3}
       propertyPath: m_Icon
@@ -18980,7 +18980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoorType: {fileID: 2088773688}
-  nextLevel: 0
+  nextLevel: 7
 --- !u!212 &2088773693
 SpriteRenderer:
   m_ObjectHideFlags: 0

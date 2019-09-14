@@ -5,14 +5,14 @@ public class Changer : MonoBehaviour
 {
     public Animator animator;
     private int levelToLoad;
-
+    public int levelIndex;
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            FadeToLevel(1);
+            FadeToLevel(levelIndex);
 
         }
 
